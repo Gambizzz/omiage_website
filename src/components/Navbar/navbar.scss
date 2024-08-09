@@ -18,6 +18,7 @@ $main-font: "Roboto Slab", serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 4;
 }
 
 .hover-text {

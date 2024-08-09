@@ -11,7 +11,7 @@ $main-font: "Roboto Slab", serif;
   position: absolute;
   font-size: 2em;
   top: 40%;
-  transform: translateX(150%);
+  transform: translateX(110%);
   z-index: 4;
 } 
 
@@ -28,7 +28,7 @@ $main-font: "Roboto Slab", serif;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 85vw;
     height: 100%;
     background-repeat: no-repeat;
     background-size: center;
@@ -40,21 +40,20 @@ $main-font: "Roboto Slab", serif;
     &.layer1 {
       background-image: url('/images/home_land_1.svg');
       z-index: 2;
-      
-      
+    margin: -10px 140px;    
     }
 
     &.layer2 {
       background-image: url('/images/home_land_2.svg');
       z-index: 3;
-      margin: 140px -10px ;
+      margin: 130px 150px ;
       
     }
 
     &.layer3 {
       background-image: url('/images/home_land_3.svg');
       z-index: 1;
-      margin-top: 250px;
+      margin: 250px 150px;
     }
   }
 
@@ -100,10 +99,9 @@ $main-font: "Roboto Slab", serif;
 
 .bottom-home {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 39%;
   width: 100%;
 
   img {

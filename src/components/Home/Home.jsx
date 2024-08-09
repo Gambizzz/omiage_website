@@ -41,8 +41,8 @@ const Home = ({ selectedLanguage, changeLanguage }) => {
 
   return (
     <section id='home'>
-      <div className='background-layer layer1' style={{ transform: `translate(${mousePos.x * 0.009}px, ${mousePos.y * 0.015}px)` }}></div>
-      <div className='background-layer layer2' style={{ transform: `translate(${mousePos.x * 0.02}px, ${mousePos.y * 0.02}px)` }}></div>
+      <div className='background-layer layer1' style={{ transform: `translate(${mousePos.x * 0.030}px, ${mousePos.y * 0.030}px)` }}></div>
+      <div className='background-layer layer2' style={{ transform: `translate(${mousePos.x * 0.020}px, ${mousePos.y * 0.020}px)` }}></div>
       <div className='background-layer layer3' style={{ transform: `translate(${mousePos.x * 0.015}px, ${mousePos.y * 0.0}px)` }}></div>
       {isEnglish ? (
           <div className='text-home'>
@@ -70,7 +70,7 @@ const Home = ({ selectedLanguage, changeLanguage }) => {
         />
       </div>
 
-      <div className='home-content'>
+      
        
 
         <div className='bottom-home'>
@@ -87,7 +87,7 @@ const Home = ({ selectedLanguage, changeLanguage }) => {
             <img src='/images/certified.svg' alt='Logo certified' className='certified' />
           </div>
         </div>
-      </div>  
+      
     </section>
   );
 };
